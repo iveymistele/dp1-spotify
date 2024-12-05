@@ -20,10 +20,10 @@
     <script>
 
     $(document).ready(function() {
-      url = "https://bv1e9klemd.execute-api.us-east-1.amazonaws.com/api/songs";
+      url = "http://127.0.0.1:8000/songs";
       $.ajax({
         // update the URL below to your songs API
-        url: "http://52.20.247.189/songs",
+        url: "http://127.0.0.1:8000/songs",
         method: "GET",
         dataType: "json", 
         success: function(data) {
